@@ -30,7 +30,7 @@ export PATH=$PATH:${BUILD_BIN_DIR}
 def cli(ctx):
     """Internal command for GitHub/TravisCI testing.
 
-    This command is used internally by planemo to assist in contineous testing
+    This command is used internally by planemo to assist in continuous testing
     of tools with Travis CI (https://travis-ci.org/).
     """
     build_dir = os.environ.get("TRAVIS_BUILD_DIR", None)
